@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinayaka.Uppar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="E:\vinaycvblog\images\vinay.jpg">
+    <script src="https://kit.fontawesome.com/5c23664b7a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="E:\vinaycvblog\images\vinayaka.jpg" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Python Developer</p>
+                <p>Web Developer</P>
+                <p>Data Analyst</P>
+                <p>Mlops Engineer</p>
+                <h1>Hi, I'm <span>Vinayaka.Uppar</span><br> From Karnataka</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about ------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="E:\vinaycvblog\images\vinay.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Master's in Computer Science Graduate |Passionate Voice Assistant Researcher | Full Stack Data Science Enthusiast | iNeuron Intern. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Proficient in Python</li>
+                            <li><span>Web Development</span><br>Experience with Flask framework for building robust and scalable web applications</li>
+                            <li><span>Front-End Technologies</span><br>Familiar with HTML, CSS, and JavaScript for creating interactive and responsive user interfaces</li>
+                            <li><span>Database Management</span><br>Skilled in working with databases, including SQLite and PostgreSQL</li>
+                            <li><span>Version Control</span><br>Familiar with Git for efficient code collaboration</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>SSLC</span><br>2017-2016<br>Vikasana High School<br>Hagaribommanahalli</li>
+                            <li><span>PUC</span><br>2016-2018<br>Little Flower Compostie PU college <br>Hospet</li>
+                            <li><span>UNDER GRADUATION</span><br>2018-21<br>Bsc in Computer Science<br>GVPP first grade college <br>Hagaribommanahalli</li>
+                            <li><span>POST GRADUATION</span><br>2021-23<br>Msc in Computer Science<br>Vijayanagara Sri KrishanDevaraya University <br>Hospet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="srvices-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p> I believe in the power of creative thinking to transform concepts into engaging visuals that leave a lasting impression. Every design decision I make is driven by a deep understanding of the end-user, ensuring a seamless and enjoyable experience.</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Web Development</h2>
+                    <p>Proficient in both front-end and back-end development, utilizing the latest technologies to build comprehensive web applications.I'm passionate about bringing ideas to life through code. Whether you're a startup with a vision or an established business seeking digital transformation, let's collaborate and create something extraordinary!</p>
+                    <a href="">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="E:\vinaycvblog\images\Web-development-concept-with-person-using-a-laptop-computer.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Voice Assistant</h3>
+                        <p>
+                            A voice assistant system utilizes Automatic Speech Recognition (ASR) to convert spoken language into text, employing deep learning models like RNNs or CNNs. Natural Language Processing (NLP) processes the obtained text, incorporating techniques such as tokenization and sentiment analysis. Intent recognition, managed through rule-based systems or deep learning models like RNNs, determines user intent, enabling relevant responses.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="E:\vinaycvblog\images\photo-1527689368864-3a821dbccc34.jpg" alt="">
+                    <div class="layer">
+                        <h3>PERSONAL RESUME</h3>
+                        <p>"Computer Science Master's graduate with expertise in voice assistant research, well-versed in end-to-end machine learning with CI/CD deployment, MLOps, and AWS deployments. Enthusiastic about full-stack data science and currently interning at iNeuron."</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ------------Contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>vinayakavirat008@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7846935753</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/_maqs_wood_?igshid=YTA1Njc0MTg3OQ=="><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="E:\vinaycvblog\images\DATA ANALYST RESUME.pdf" download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+            
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxBBlON8vB0ix5Vgqo7Gs20MAOni21L7KT4Uiih0FVD44gpAF9sr8XR9Fer1v4kiHmJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
